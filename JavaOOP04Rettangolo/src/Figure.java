@@ -12,7 +12,7 @@ public abstract class Figure {
 	}
 	
 	// double Perimetro() { return 0;}
-	abstract double Perimetro();               //basta che un solo metodo siaastratto affinche anche la classe debba essere astratta
+	abstract double Perimetro();               //basta che un solo metodo sia astratto affinche anche la classe debba essere astratta
                                                //Abstract della classe madre stabilisce solo un modello per le classi figlie . In questo caso il modello
 	                                           //è che le classi figlie abbiano tutte un metodo Perimetro(), perfino il Punto
 	public Figure(Color c, tipiTratto tratto){
